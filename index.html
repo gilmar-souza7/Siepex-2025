@@ -7,7 +7,11 @@
     <style>
         body {
             font-family: sans-serif;
-            background-color: #F5F5DC;
+            background-image: url('Fundo.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,11 +20,16 @@
             margin: 0;
             padding: 20px;
             box-sizing: border-box;
+            color: #333; /* Mantém a cor do texto escura para leitura */
         }
         .container {
             width: 100%;
             max-width: 600px;
             text-align: center;
+            /* Adicionado um fundo semi-transparente para o container para melhorar a leitura dos botões */
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 30px;
+            border-radius: 10px;
         }
         h1 {
             color: #333;
